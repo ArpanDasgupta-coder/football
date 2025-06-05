@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vivekananda Yuva Football Academy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background: #f0f0f0;
+      color: #333;
+    }
+
+    header {
+      background-color: #111;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    nav a {
+      color: #00ff99;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffffff;
+    }
+
+    .hero {
+  background: url('group-football-players-training-teammates-600nw-2458350845.webp') no-repeat center center/cover;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+  position: relative;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5); /* dark overlay for text readability */
+}
+
+.hero h1 {
+  font-size: 4rem;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px 30px;
+  border-radius: 15px;
+  position: relative;
+}
+
+
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .about, .programs, .contact {
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2rem;
+      color: #0a3d62;
+      margin-bottom: 20px;
+    }
+
+    .about h3, .about h4 {
+      color: #1e272e;
+      margin-bottom: 10px;
+    }
+
+    .programs ul {
+      list-style: square;
+      padding-left: 20px;
+    }
+
+    footer {
+      background: #000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+        text-align: center;
+      }
+
+      nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Vivekananda Yuva Football Academy</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#programs">Programs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+  <h1>Train Like a Pro</h1>
+</div>
+
+
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <h3>Vivekananda Yuva Football Academy</h3>
+    <p>Founded on the ideals of Swami Vivekananda, our academy is committed to nurturing the next generation of football talent. We empower young athletes through structured training, guided by experienced coaches.</p>
+    <p>With personal attention to every player and a strong focus on discipline, teamwork, and values — we are building more than just players; we are shaping champions in life and in the game.</p>
+  </section>
+
+  <section class="programs" id="programs">
+    <h2>Our Programs</h2>
+    <ul>
+      <li>⚽ Beginner Youth Training (ages 3–10)</li>
+      <li>⚽ Intermediate Academy (ages 11–14)</li>
+      <li>⚽ Elite Development Program (ages 15–18)</li>
+      <li>⚽ Summer Camps & Clinics</li>
+    </ul>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:arpandasguptam10@gmail.com">arpandasguptam10@gmail.com</a></p>
+    <p>Phone: <a href="tel:8697223985">8697223985</a></p>
+    <p>Location: Vivekananda Nagar Colony,<br>Podrah, Howrah – Andul Road</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Vivekananda Yuva Football Academy. All rights reserved.
+  </footer>
+
+</body>
+</html>
